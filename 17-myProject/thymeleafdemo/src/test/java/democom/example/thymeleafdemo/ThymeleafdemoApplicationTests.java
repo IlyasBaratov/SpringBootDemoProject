@@ -8,6 +8,7 @@ class ThymeleafdemoApplicationTests {
 
 	@Test
 	void contextLoads() {
+
 	}
 
 }
