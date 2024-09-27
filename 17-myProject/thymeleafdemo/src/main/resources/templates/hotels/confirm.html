@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirmation</title><meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+          crossorigin="anonymous"/>
+</head>
+<body>
+<!--<a th:href="@{/hotels/confirmation}"-->
+<!--   class="btn btn-primary btn-sm mb-3">-->
+<!--    Client-->
+<!--</a>-->
+<div class="container">
+    <h4 style="container: inherit">Confirmation</h4>
+    <a th:href="@{/hotels/list}"
+       class="btn btn-primary btn-sm mb-3">
+        Hotel Owner
+    </a>
+    <a th:href="@{/hotels/list-for-clients}"
+       class="btn btn-primary btn-sm mb-3">
+        Hotel Client
+    </a>
+</div>
+
+</body>
+</html>
